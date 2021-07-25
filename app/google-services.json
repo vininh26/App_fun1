@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820378247972",
+    "project_id": "app-fun-8c3fe",
+    "storage_bucket": "app-fun-8c3fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820378247972:android:4758a2240ea37cd58f09b1",
+        "android_client_info": {
+          "package_name": "com.example.app_fun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820378247972-bdt2g4ucmgijci754go82d8da9p132fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz64rOJ4Zlh0QdtcPUfKJ7nd4OaU_tgks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820378247972-bdt2g4ucmgijci754go82d8da9p132fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

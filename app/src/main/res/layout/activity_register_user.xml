@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginApp.Register_User"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/baner"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:textColor="#F1EEEE"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please enter your personal information"
+        android:textColor="#F1EEEE"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtfullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Full Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"/>
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Email "
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"
+
+        />
+
+    <EditText
+        android:id="@+id/edtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter NumberPhone "
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"/>
+
+    <EditText
+        android:id="@+id/edtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Age "
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"/>
+
+
+    <EditText
+        android:id="@+id/edtschools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter schools used to "
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"/>
+
+    <EditText
+        android:id="@+id/edtsothich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter interests "
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"/>
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter PassWorld your "
+        android:textColor="@color/black"
+        android:background="@drawable/backgroudedt"/>
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_boder"
+        android:text="Register User "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#0E266E" />
+
+</LinearLayout>

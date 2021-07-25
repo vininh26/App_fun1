@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainSearch">
+    <androidx.appcompat.widget.Toolbar
+        android:background="#FFFFFF"
+        app:titleTextColor="#000000"
+        android:id="@+id/toolbarmanhinhsearch"
+        app:title="Search TRuyện"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/timkiem"
+        android:textColorHint="#040404"
+        android:hint="Name truyện or ký tự"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/lisviewtimkiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
