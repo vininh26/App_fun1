@@ -88,12 +88,12 @@ public class loginApp extends AppCompatActivity implements View.OnClickListener 
             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                    if (user.isEmailVerified()){
+                   // if (user.isEmailVerified()){
                         startActivity(new Intent(loginApp.this, MainActivity.class));
-                    }else {
-                        user.sendEmailVerification();
-                        Toast.makeText(loginApp.this, "check your email to verify you account! " , Toast.LENGTH_LONG).show();
-                    }
+                  //  }else {
+                   //     user.sendEmailVerification();
+                    //    Toast.makeText(loginApp.this, "check your email to verify you account! " , Toast.LENGTH_LONG).show();
+                  //  }
 
                 }else {
                     Toast.makeText(loginApp.this,"Failed to login ! Please check your credentials",Toast.LENGTH_LONG).show();

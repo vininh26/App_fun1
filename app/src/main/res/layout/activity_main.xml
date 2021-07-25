@@ -15,16 +15,25 @@
         android:layout_height="?attr/actionBarSize" />
 
     <androidx.viewpager.widget.ViewPager
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="220dp" />
     <me.relex.circleindicator.CircleIndicator
         android:id="@+id/circle"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="6dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="30dp" />
+        android:layout_height="10dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#DF1111"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Top Tuyện mới Nhất"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <ListView
         android:id="@+id/lvListTruyen"
         android:layout_marginStart="10dp"

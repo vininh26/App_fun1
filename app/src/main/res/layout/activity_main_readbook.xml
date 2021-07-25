@@ -17,6 +17,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="#E80A0A"
         android:text="Tên Truyện"
         android:id="@+id/TenTruyen"
         android:layout_width="match_parent"
