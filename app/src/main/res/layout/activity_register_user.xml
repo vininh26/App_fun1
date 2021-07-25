@@ -7,7 +7,14 @@
     tools:context=".LoginApp.Register_User"
     android:orientation="vertical"
     android:background="@drawable/backgroud"
-    android:gravity="center">
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarmanregister"
+        android:background="#03226E"
+        app:titleTextColor="#F3DCDC"
+        app:title="Register User Login "
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
     <TextView
         android:id="@+id/baner"
         android:layout_marginTop="5dp"

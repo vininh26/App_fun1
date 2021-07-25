@@ -2,6 +2,7 @@ package com.example.app_fun.LoginApp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,16 +28,18 @@ public class Register_User extends AppCompatActivity implements View.OnClickList
     private EditText edtfullname ,edtemail,edtphone,edtage,edtpass,edtschools,edtsothich;
     private Button btnregister ;
     private FirebaseAuth mAth ;
+    private Toolbar toolbar ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_user);
-
         Anhxa() ;
+        AcctionBar();
     }
 
     private void Anhxa() {
+        toolbar = findViewById(R.id.toolbarmanregister);
         mAth = FirebaseAuth.getInstance();
         edtfullname = findViewById(R.id.edtfullname);
         edtemail = findViewById(R.id.edtemail);
@@ -49,6 +52,19 @@ public class Register_User extends AppCompatActivity implements View.OnClickList
         btnregister.setOnClickListener(this);
         baner = findViewById(R.id.baner);
         baner.setOnClickListener(this);
+    }
+    private void AcctionBar() {
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+
+            }
+        });
+
     }
 
     @Override

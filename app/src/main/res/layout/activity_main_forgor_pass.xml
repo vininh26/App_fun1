@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginApp.MainForgorPass"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud">
+    <androidx.appcompat.widget.Toolbar
+        android:background="#03226E"
+        app:titleTextColor="#F3DCDC"
+        android:id="@+id/toolbarmanresertPass"
+        app:title="Resert PassWorld"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+    <TextView
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:text=" Resert PassWorld For Email ! "
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:paddingTop="70dp"
+        android:id="@+id/edtemailResetpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Email ForgotPassWorld"
+        android:inputType="textPersonName" />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnresetpass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_boder"
+        android:text="Reset PassWorld "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#0E266E" />
+
+
+</LinearLayout>

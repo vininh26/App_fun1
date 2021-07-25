@@ -53,7 +53,7 @@ public class loginApp extends AppCompatActivity implements View.OnClickListener 
                 startActivity(new Intent(loginApp.this,Register_User.class));
                 break;
             case R.id.txtforgorPass:
-
+                startActivity(new Intent(loginApp.this,MainForgorPass.class));
                 break;
             case  R.id.btnLogin:
                 userLogin();
